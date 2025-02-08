@@ -1,0 +1,65 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+}
+
+p{
+    /* font size: 32px; */
+/* font size: 96px; */
+/* font size: 1in; */
+/* font-size: 2.4cm; */
+/* font-size: 12pt; */
+}
+
+/* relative units */
+.parent{
+    font-size: 10px;
+}
+
+.parent p{
+    font-size: 200%;
+}
+
+.box{
+   width: 50%;
+   border: 1px solid green;
+}
+
+/* em refer to the current parent font size */
+.box2{
+    border: 1px solid red;
+}
+
+.box2-child{
+    /* width: 400px; */
+    width: 40em;
+    height: 40em;
+    background-color: brown;
+}
+
+.box2 p{
+    font-size: 2em;
+}
+
+/* rem refer to the root element font size */
+/* .box3{
+
+} */
+
+.box3-child{
+    width: 40em;
+    height: 40em;
+    background-color: dodgerblue;
+}
+
+.box3 p{
+    font-size: 2rem;
+}
+.box4{
+    width: 50%;
+    border: 1px solid gray;
+    height: 100vh;
+    background-color: rgb(226, 123, 49);
+}
