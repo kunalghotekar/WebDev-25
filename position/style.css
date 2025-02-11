@@ -1,0 +1,14 @@
+.main-box{
+    
+    border: 400px;
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+.child-box{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+position: relative;
+}
