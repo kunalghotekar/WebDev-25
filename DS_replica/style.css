@@ -1,0 +1,113 @@
+.bg-format {
+    background-image: url(https://cdn.deepseek.com/blog/banner-background.webp);
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+}
+
+/* .bg-box{
+
+} */
+ header{
+    display: flex;
+    column-gap: 1050px;
+ }
+.box1 {
+    color: rgb(15, 141, 232);
+    font-family: fractured, sans-serif;
+    size: 5px;
+    align-items: baseline;
+
+}
+nav ul li{
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    color: black;
+}
+
+nav ul li a{
+
+    color:black;
+    /* text-decoration: none; */
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+
+.bg-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    /* flex-wrap: wrap;  */
+    row-gap: 10px;
+    /* column-gap: 10px; */
+    /* justify-content:center ; */
+    align-content: center;
+    /* height: 600px; */
+    /* flex-basis: 300px; */
+    border: 5px;
+    color: black;
+}
+
+.box3 h1 {
+    margin-left: 300px;
+    color: rgb(15, 141, 232);
+    font-size: 4em;
+    font-style: product sans;
+    font-weight: bold;
+
+}
+
+.box4 h1 {
+    margin-left: 300px;
+    color: black;
+    font-size: 2em;
+    font-style: product sans;
+    font-weight: lighter;
+
+}
+
+.box5 {
+    /* border: 10px solid black; */
+    margin-left: 50px;
+    display: flex;
+    /* justify-content:space-around; */
+    padding: 1px 0;
+    gap: 10rem;
+
+
+}
+
+.box5-b1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 246, 252);
+    text-align: center;
+    width: 20%;
+    
+
+}
+.box5-b1 h1{
+    font-style: product sans;
+    font-size: medium;
+color: rgb(15, 141, 232);
+}
+
+.box5-b2{
+    background-color:aliceblue ;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 246, 252);
+    margin-left: 60px;
+    text-align: center;
+    width: 20%;
+    
+}
+.box5-b2 h1{
+    font-style: product sans;
+    font-size: medium;
+    color: rgb(15, 141, 232);
+}
+
+
